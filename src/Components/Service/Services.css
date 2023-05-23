@@ -1,0 +1,26 @@
+.services {
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 10rem;
+  background: url(../../assets/car-bg-services.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services--header {
+  font-family: "Lora", sans-serif;
+  color: var(--color-dark-brown);
+  font-size: 3rem;
+}
+
+.services--content {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-bottom: 3rem;
+}

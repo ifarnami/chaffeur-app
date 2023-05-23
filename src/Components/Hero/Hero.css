@@ -1,0 +1,62 @@
+.container {
+  scroll-snap-align: center;
+}
+
+.hero {
+  height: calc(100vh - 6rem);
+}
+
+.hero--content {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+}
+
+.hero--content__img {
+}
+
+.hero--content__header {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.hero--media {
+  position: relative;
+}
+
+.hero--media__img {
+}
+
+.hero--media__svg {
+  position: absolute;
+  height: 38rem;
+  z-index: -10;
+  left: 21.5rem;
+}
+
+.navbar {
+  position: sticky;
+  height: 6rem;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  scroll-snap-align: center;
+}
+
+.navbar--brand {
+  font-size: 2rem;
+  color: var(--color-dark-brown) !important;
+}
+
+.navbar--links {
+  width: 30%;
+  flex-direction: row;
+}
+
+.navbar--links__link {
+  transition: color 0.2s ease;
+}
+
+.navbar--links__link:hover {
+  color: var(--color-light-brown);
+}

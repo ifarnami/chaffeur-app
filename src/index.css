@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Noto+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+:root {
+  --color-backgorund: #e5e5e5;
+  --color-dark-blue: #19314b;
+  --color-very-dark-blue: #232730;
+  --color-brown: #c7763e;
+  --color-light-brown: #f8d7a4;
+  --color-dark-brown: #a55c30;
+}
+
+.lora-400-italic {
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  /* font-size: 32px; */
+}
+
+.lora-700 {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+  /* font-size: 32px; */
+}
+
+.noto-sans-400,
+.noto-sans-600 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+}
+
+.noto-sans-600 {
+  font-weight: 600;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-center-even {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.margin-left-2 {
+  margin-left: 2rem;
+}
+
+.margin-left-5 {
+  margin-left: 5rem;
+}
+
+.margin-left-7 {
+  margin-left: 7rem;
+}
+
+.margin-right-2 {
+  margin-right: 2rem;
+}
+
+.margin-right-5 {
+  margin-right: 5rem;
+}
+
+.margin-right-7 {
+  margin-right: 7rem;
+}
