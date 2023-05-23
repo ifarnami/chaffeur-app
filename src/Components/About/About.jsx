@@ -5,7 +5,7 @@ import driver from "../../assets/driver-about.jpg";
 
 function About() {
   return (
-    <section className="about flex-center-between">
+    <section id="about-page" className="about flex-center-between">
       <div className="about--media">
         <img className="about--media__img" src={driver} alt="driver" />
       </div>

@@ -3,7 +3,7 @@ import FleetCard from "./FleetCard";
 
 function Fleet() {
   return (
-    <section className="fleet">
+    <section id="fleet-page" className="fleet">
       <h3>Fleet</h3>
       <FleetCard
         image={""}

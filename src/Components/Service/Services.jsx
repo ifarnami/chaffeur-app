@@ -6,7 +6,7 @@ import diamond from "../../assets/diamond-services.svg";
 
 function Services() {
   return (
-    <section className="services">
+    <section id="services-page" className="services">
       <h3 className="services--header">Services</h3>
       <div className="services--content">
         <Card image={star} />
