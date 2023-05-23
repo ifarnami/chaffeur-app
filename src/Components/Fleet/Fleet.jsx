@@ -20,7 +20,7 @@ function Fleet() {
         brand={"Mercedes G - Wagon"}
       />
       <FleetCard
-        image={maybakh}
+        image={suv}
         category={"SUV"}
         brand={"Mercedes M Class"}
       />
