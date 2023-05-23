@@ -1,5 +1,18 @@
 .fleet {
   height: 100vh;
-  background-color: #62deb7;
   scroll-snap-align: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.fleet--header {
+  font-family: "Lora", sans-serif;
+  font-size: 3rem;
+  color: var(--color-dark-brown);
+  position: relative;
+  top: 2rem;
+}
+
+.fleet--content {
+  gap: 4rem;
 }
