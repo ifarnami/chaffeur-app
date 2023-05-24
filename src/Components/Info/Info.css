@@ -1,0 +1,17 @@
+.info {
+  scroll-snap-align: center;
+  width: 100%;
+  background-color: rgba(35, 34, 34, 0.96);
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.info--content {
+  max-width: 400px;
+  flex-direction: column;
+  text-align: center;
+}

@@ -4,7 +4,7 @@ import luggage from "../../assets/luggage-fleet.svg";
 
 function FleetCard({ image, category, brand }) {
   return (
-    <div className="fleetCard ">
+    <div className="fleetCard">
       <img className="fleetCard--img" src={image} alt="car image" />
       <div className="fleetCard--content">
         <h4 className="fleetCard--content__header">{category}</h4>

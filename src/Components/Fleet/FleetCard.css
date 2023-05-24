@@ -5,6 +5,12 @@
   background-color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 3rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.fleetCard:hover {
+  transform: scale(1.08);
+  border-radius: 10px;
 }
 
 .fleetCard--img {
@@ -33,5 +39,5 @@
 .fleetCard--icons__icon {
   display: flex;
   font-family: "Noto Sans", sans-serif;
-  gap: .4rem;
+  gap: 0.4rem;
 }
