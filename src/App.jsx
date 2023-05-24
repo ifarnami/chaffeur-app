@@ -5,6 +5,7 @@ import Services from "./Components/Service/Services";
 import Fleet from "./Components/Fleet/Fleet";
 import Navbar from "./Components/Navbar/Navbar";
 import Info from "./Components/Info/Info";
+import ContactUs from "./Components/Contact Us/ContactUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Fleet />
       <Info />
+      <ContactUs />
     </div>
   );
 }

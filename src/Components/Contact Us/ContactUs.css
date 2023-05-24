@@ -1,0 +1,27 @@
+.contact {
+  scroll-snap-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.contact--title {
+  position: relative;
+  top: 20px;
+  font-family: "Lora", sans-serif;
+  font-size: 3rem;
+  color: var(--color-dark-brown);
+}
+
+.contact--form {
+  width: 35%;
+  height: 65%;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #e8eaec;
+}
+
+.contact--form__textarea {
+  height: 120px;
+}

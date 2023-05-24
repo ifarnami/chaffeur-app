@@ -28,7 +28,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a className="navbar--links__link" href="#1">
+          <a className="navbar--links__link" href="#contact">
             Contact Us
           </a>
         </li>
