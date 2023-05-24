@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import burger from "../../assets/burger-menu.svg";
 
 function Navbar() {
   return (
@@ -33,6 +34,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
+      <img className="navbar--menu" src={burger} alt="menu" />
     </nav>
   );
 }
