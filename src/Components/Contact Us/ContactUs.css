@@ -25,3 +25,30 @@
 .contact--form__textarea {
   height: 120px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact--form input {
+    width: 160px;
+    height: 30px;
+  }
+
+  .contact--form__textarea {
+    height: 90px !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contact--form {
+    width: 300px;
+  }
+
+  .contact--form input {
+    width: 150px;
+    font-size: 10px;
+  }
+
+  .contact button {
+    width: 100px !important;
+    height: 30px !important;
+  }
+}

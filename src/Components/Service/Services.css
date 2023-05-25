@@ -26,3 +26,30 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .services {
+    background-size: auto;
+  }
+
+  .services--header {
+    font-size: 2rem;
+  }
+
+  .services--content {
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .services {
+    height: auto;
+    padding: 0;
+  }
+
+  .services--content {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0;
+  }
+}

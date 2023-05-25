@@ -41,3 +41,58 @@
   font-family: "Noto Sans", sans-serif;
   gap: 0.4rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .fleetCard {
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .fleetCard {
+    height: 350px;
+    width: 200px;
+  }
+
+  .fleetCard--img {
+    width: 200px;
+  }
+
+  .fleetCard--content__header {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fleetCard {
+    height: 300px;
+    width: 140px;
+  }
+
+  .fleetCard--img {
+    width: 150px;
+  }
+
+  .fleetCard--content__paragraph {
+    font-size: .4rem;
+  }
+
+  .fleetCard--icons {
+    font-size: .5rem;
+  }
+
+  .svg {
+    width: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .fleetCard {
+    width: 250px;
+    height: 300px;
+  }
+
+  .fleetCard--content__paragraph {
+    font-size: .6rem;
+  }
+}

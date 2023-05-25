@@ -24,3 +24,42 @@
   font-weight: 400;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .card {
+    max-width: 200px;
+    max-height: 400px;
+  }
+
+  .card--img {
+    width: 80px;
+  }
+
+  .card--header {
+    font-size: 1.2rem;
+  }
+
+  .card--paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card--img {
+    width: 60px;
+  }
+
+  .card--header {
+    font-size: 1rem;
+  }
+
+  .card--paragraph {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .card--paragraph {
+    display: none;
+  }
+}

@@ -15,3 +15,10 @@
   flex-direction: column;
   text-align: center;
 }
+
+@media screen and (max-width: 426px) {
+  .info {
+    grid-template-columns: none;
+    font-size: 1.2rem;
+  }
+}

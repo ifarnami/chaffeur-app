@@ -16,3 +16,27 @@
 .fleet--content {
   gap: 4rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .fleet {
+    height: 850px;
+  }
+
+  .fleet--header {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .fleet {
+    height: 1600px;
+  }
+
+  .fleet--header {
+    font-size: 2rem;
+  }
+
+  .fleet--content {
+    flex-direction: column;
+  }
+}

@@ -17,11 +17,11 @@ function FleetCard({ image, category, brand }) {
       </div>
       <div className="fleetCard--icons flex-center-between">
         <div className="fleetCard--icons__icon">
-          <img src={seats} alt="seats icon" />
+          <img className="svg" src={seats} alt="seats icon" />
           <p>4 Seats</p>
         </div>
         <div className="fleetCard--icons__icon">
-          <img src={luggage} alt="luggage icon" />
+          <img className="svg" src={luggage} alt="luggage icon" />
           <p>2 Luggage</p>
         </div>
       </div>
